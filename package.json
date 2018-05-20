@@ -1,0 +1,10 @@
+{
+	"name": "Enenra",
+	"version": "1.0.0",
+	"description": "lit bot",
+	"main": "bot.js",
+	"author": "Dnami_",
+	"dependencies": {
+		"discord.js": "^11.3.2"
+	}
+};
