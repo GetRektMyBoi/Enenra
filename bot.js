@@ -4,7 +4,7 @@ const config = require('./config.json');
 const client = new Discord.Client();
 const prefix = config.prefix;
 
-client.on('ready", () => {
+client.on('ready', () => {
 	console.log('Logged in as ${client.user.tag}');
 	client.user.setActivity(config.defualtActivity);
 });
